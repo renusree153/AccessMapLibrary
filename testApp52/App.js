@@ -18,10 +18,10 @@ import Constants from 'expo-constants';
  
 // routes to the LocationFinder function in the emissions-library4 index.js file 
 function LocationGetter ({navigation}) { 
-  useEffect(() => {
+  //useEffect(() => {
     // we want more information than this, manufacturer, IP address
     // hash the installation ID by looking at the code for that
-  }, []);
+  //}, []);
   return (
     <LocationFinder />
   );
@@ -48,7 +48,6 @@ export const SignInMethod = async (url) => {
     }
   } catch (error) {
     console.error('Error opening URL:', error);
-    // Handle errors gracefully, such as displaying an error message to the user
   }
 };
 

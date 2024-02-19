@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "emissions-library4": "file:/Users/renusree/Desktop/testing_2/emissions-library4",
+    "expo-application": "^5.8.3",
     "react-native-inappbrowser-reborn": "^3.7.0"
   }
 }
