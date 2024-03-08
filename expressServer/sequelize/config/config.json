@@ -1,11 +1,17 @@
 {
   "development": {
-    "username": "devuser",
-    "password": "devpassword",
-    "database": "devdb",
-    "host": "127.0.0.1",
-    "port": 5435,
-    "dialect": "postgres"
+    "username": "renusree",
+    "password": "password123!!!",
+    "database": "tcat-database",
+    "host": "tcat-1.postgres.database.azure.com",
+    "dialect": "postgres",
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false 
+      }
+    }
   },
   "test": {
     "username": "root",
